@@ -13,7 +13,7 @@ class Todo extends Component {
                 <span>
                     :{this.props.title}  
                 </span>
-                <a href="">
+                <a href="" onClick={(e) => {e.preventDefault(); this.props.setTodoStatus(this.props)}}>
                     {link}
                 </a>
                 <p>
