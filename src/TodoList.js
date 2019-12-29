@@ -10,7 +10,7 @@ class TodoList extends Component {
         }
 
         if (this.props.hasError) {
-            return <h2> error </h2>
+            return <h2> error </h2>;
         }
         const todos = this.props.todos.map(
             todo => 
